@@ -26,6 +26,12 @@
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/net.java.dev.swing-layout/swing-layout -->
+        <dependency>
+            <groupId>net.java.dev.swing-layout</groupId>
+            <artifactId>swing-layout</artifactId>
+            <version>1.0.2</version>
+        </dependency>
     </dependencies>
 
 

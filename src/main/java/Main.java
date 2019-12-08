@@ -1,13 +1,16 @@
-
+import javax.swing.*;
 public class Main {
 
+
     public static void main (String ... args){
-
-
-        PersomLombo p = new PersomLombo(56, "Tttt", "LLL");
-        System.out.println(p+" ");
-
-
-
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new CelsiusConverterGUI().setVisible(true);
+            }
+        });
     }
+
+
 }
+
+
