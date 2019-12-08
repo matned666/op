@@ -5,7 +5,7 @@ public class Main {
 
 
         PersomLombo p = new PersomLombo(56, "Tttt", "LLL");
-        System.out.println(p);
+        System.out.println(p+" ");
 
 
 
