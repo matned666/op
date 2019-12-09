@@ -5,7 +5,7 @@ public class Main {
     public static void main (String ... args){
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CelsiusConverterGUI().setVisible(true);
+                new CelsiusConverterGUI(true).setVisible(true);
             }
         });
     }
